@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+/* variables */
+:root {
+  --first: #0088a9;
+  --second: #a03e99;
+  --third: #fff5ec;
+  --forth: #7e3279;
+  --fifth: orange;
+  --black: #000;
+  --dark: #333;
+  --gray: #ccc;
+  --cream: #f4f4f4;
+  --white: #fff;
+}
+
+/* Reseting */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  background-color: var(--white);
+  color: var(--black);
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+/* Utilieties */
+
+.img--contain {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.img--cover {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  color: var(--white);
+  background-color: var(--first);
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--forth);
+}
+
+.btn--menu {
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  color: var(--white);
+  background-color: var(--second) !important;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.btn--menu:hover {
+  background-color: var(--forth) !important;
+  color: var(--white) !important;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.card__header,
+.card__content {
+  padding: 1rem;
+}
+
+.card__header h1,
+.card__content h1,
+.card__content h2,
+.card__content p {
+  margin: 0;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__image img {
+  width: 100%;
+}
+
+.card__actions {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card__actions button,
+.card__actions a {
+  margin: 0 0.25rem;
+}
+
+.product-item {
+  width: 30rem;
+  max-width: 95%;
+  margin: 6rem;
+}
+
+.product__title {
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+}
+
+.product__description {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+/* mobile */
+.section-jumbotron1 {
+  width: 100%;
+  background-image: url("/assets/background8.jpg");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 60vh;
+  margin: 0;
+  background-color: #fefefe;
+}
+/* .section-jumbotron1 .text-group {
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 40px;
+}
+
+.section-jumbotron1 h1::before {
+  content: "Przepyszne ";
+  color: var(--second);
+}
+
+.section-jumbotron1 h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 8rem;
+}
+
+.section-jumbotron1 p {
+  font-family: "Amatic SC", cursive;
+  font-size: 3rem;
+}
+.section-jumbotron1 a {
+  font-size: 3rem;
+  font-family: "Shadows Into Light Two", cursive;
+} */
+
+/* section-jumbotron2 */
+.section-jumbotron2 {
+  width: 50%;
+  height: 60vh;
+  margin: auto;
+  margin-bottom: 5rem;
+  background-image: url("/assets/mockup1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-jumbotron2 .text-group {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 40px;
+}
+
+.section-jumbotron2 h1 {
+  color: var(--second);
+  margin-bottom: 2rem;
+  font-family: "Amatic SC", cursive;
+  font-size: 4rem;
+}
+.section-jumbotron2 p {
+  font-size: 3rem;
+  font-family: "Amatic SC", cursive;
+}
+
+@media (min-width: 768px) {
+  .section-jumbotron1 {
+    width: 100%;
+    background-image: url("/assets/background8.jpg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin: 0;
+    background-color: #fefefe;
+  }
+  .section-jumbotron1 .text-group {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 40px;
+  }
+
+  .section-jumbotron1 h1::before {
+    content: "Przepyszne ";
+    color: var(--second);
+  }
+
+  .section-jumbotron1 h1 {
+    font-family: "Amatic SC", cursive;
+    font-size: 8rem;
+  }
+
+  .section-jumbotron1 p {
+    font-family: "Amatic SC", cursive;
+    font-size: 3rem;
+  }
+  .section-jumbotron1 a {
+    font-size: 3rem;
+    font-family: "Shadows Into Light Two", cursive;
+  }
+
+  /* section-jumbotron2 */
+  .section-jumbotron2 {
+    width: 50%;
+    height: 60vh;
+    margin: auto;
+    margin-bottom: 5rem;
+    background-image: url("/assets/mockup1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .section-jumbotron2 .text-group {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .section-jumbotron2 h1 {
+    color: var(--second);
+    margin-bottom: 2rem;
+    font-family: "Amatic SC", cursive;
+    font-size: 4rem;
+  }
+  .section-jumbotron2 p {
+    font-size: 3rem;
+    font-family: "Amatic SC", cursive;
+  }
+}
