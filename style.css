@@ -150,22 +150,24 @@ a {
   font-size: 1.5rem;
 }
 
+.box {
+}
+
 /* mobile */
 .section-jumbotron1 {
   width: 100%;
   background-image: url("/assets/background8.jpg");
   background-size: cover;
-  background-position: right;
+  background-position: left center;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 40vh;
   margin: 0;
   background-color: #fefefe;
 }
-/* .section-jumbotron1 .text-group {
+.section-jumbotron1__text-group {
   width: 70%;
-  margin: 0 auto;
   text-align: left;
-  padding: 40px;
+  padding: 1rem;
 }
 
 .section-jumbotron1 h1::before {
@@ -175,17 +177,20 @@ a {
 
 .section-jumbotron1 h1 {
   font-family: "Amatic SC", cursive;
-  font-size: 8rem;
+  font-size: 1.5rem;
 }
 
 .section-jumbotron1 p {
   font-family: "Amatic SC", cursive;
-  font-size: 3rem;
+  font-size: 1rem;
 }
+
 .section-jumbotron1 a {
-  font-size: 3rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.5rem;
   font-family: "Shadows Into Light Two", cursive;
-} */
+}
 
 /* section-jumbotron2 */
 .section-jumbotron2 {
