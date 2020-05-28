@@ -160,14 +160,14 @@ a {
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
-  height: 40vh;
+  height: 50vh;
   margin: 0;
   background-color: #fefefe;
 }
 .section-jumbotron1__text-group {
-  width: 70%;
+  width: 90%;
   text-align: left;
-  padding: 1rem;
+  padding: 2rem 0 0 1rem;
 }
 
 .section-jumbotron1 h1::before {
@@ -177,19 +177,19 @@ a {
 
 .section-jumbotron1 h1 {
   font-family: "Amatic SC", cursive;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .section-jumbotron1 p {
   font-family: "Amatic SC", cursive;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .section-jumbotron1 a {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
-  font-size: 0.5rem;
-  font-family: "Shadows Into Light Two", cursive;
+  font-size: 1rem;
+  font-family: "Amatic SC", cursive;
 }
 
 /* section-jumbotron2 */
