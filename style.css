@@ -165,7 +165,7 @@ a {
   background-color: #fefefe;
 }
 .section-jumbotron1__text-group {
-  width: 80%;
+  width: 100%;
   text-align: left;
   padding: 2rem 0 0 1rem;
 }
@@ -177,12 +177,13 @@ a {
 
 .section-jumbotron1 h1 {
   font-family: "Amatic SC", cursive;
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 .section-jumbotron1 p {
   font-family: "Amatic SC", cursive;
   font-size: 2.5rem;
+  display: none;
 }
 
 .section-jumbotron1 a {
