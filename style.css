@@ -177,7 +177,7 @@ a {
 
 .section-jumbotron1 h1 {
   font-family: "Amatic SC", cursive;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .section-jumbotron1 p {
@@ -186,7 +186,7 @@ a {
 }
 
 .section-jumbotron1 a {
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding: 0.2rem 2rem;
   font-size: 2rem;
   font-family: "Amatic SC", cursive;
